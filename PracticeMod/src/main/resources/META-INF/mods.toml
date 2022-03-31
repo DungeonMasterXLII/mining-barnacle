@@ -1,0 +1,58 @@
+
+
+
+
+
+
+modLoader="javafml" 
+
+loaderVersion="[40,)" 
+
+
+license="All rights reserved"
+
+
+
+[[mods]] 
+
+modId="practicemod"
+
+
+
+version="${file.jarVersion}" 
+ 
+displayName="Practice Mod"
+
+
+
+
+
+logoFile="examplemod.png" 
+
+credits="A mod made by DungeonMaster42 using a tutorial by Cy4" 
+
+authors="DungeonMaster42" 
+
+description='''
+A mod made by DungeonMaster42 using a tutorial by Cy4
+'''
+
+[[dependencies.practicemod]] 
+    
+    modId="forge" 
+    
+    mandatory=true 
+    
+    versionRange="[40,)" 
+    
+    ordering="NONE"
+    
+    side="BOTH"
+
+[[dependencies.practicemod]]
+    modId="minecraft"
+    mandatory=true
+
+    versionRange="[1.18.2,1.19)"
+    ordering="NONE"
+    side="BOTH"
